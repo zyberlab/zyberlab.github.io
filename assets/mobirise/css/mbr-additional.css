@@ -1150,7 +1150,7 @@ a {
   font-size: 32px;
   left: -15px;
   top: 12%;
-  color: #6592e6;
+  color: #40b0bf;
 }
 .cid-svhOtIYfQC .item.first:before {
   display: none;
@@ -1159,7 +1159,7 @@ a {
   display: none;
 }
 .cid-svhOtIYfQC .icon-box {
-  background: #6592e6;
+  background: #40b0bf;
   width: 60px;
   min-width: 60px;
   height: 60px;
@@ -1185,10 +1185,41 @@ a {
     margin-bottom: 2rem;
   }
 }
+.cid-svHo2jaHCn {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #fff0b0;
+}
+.cid-svHo2jaHCn .card-box {
+  z-index: 10;
+  position: relative;
+}
+@media (min-width: 1500px) {
+  .cid-svHo2jaHCn .container {
+    max-width: 1400px;
+  }
+}
+.cid-svHo2jaHCn .card {
+  margin: auto;
+}
+.cid-svHo2jaHCn .mbr-iconfont {
+  display: block;
+  font-size: 5rem;
+  color: #2299aa;
+  margin-bottom: 2rem;
+}
+.cid-svHo2jaHCn .card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-svHo2jaHCn .row {
+  justify-content: center;
+}
 .cid-svhSYR5Zqg {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 .cid-svhSYR5Zqg .item {
   display: flex;
@@ -1202,7 +1233,7 @@ a {
   display: none;
 }
 .cid-svhSYR5Zqg .icon-box {
-  background: #6592e6;
+  background: #40b0bf;
   width: 60px;
   min-width: 60px;
   height: 60px;
@@ -1225,7 +1256,7 @@ a {
   font-size: 32px;
   left: 50%;
   top: 120%;
-  color: #6592e6;
+  color: #40b0bf;
   transform: translate(-50%, 0);
 }
 .cid-svhSYR5Zqg span {
@@ -1251,7 +1282,7 @@ a {
 .cid-svhUnLoahe {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 .cid-svhUnLoahe .item {
   display: flex;
@@ -1265,7 +1296,7 @@ a {
   display: none;
 }
 .cid-svhUnLoahe .icon-box {
-  background: #6592e6;
+  background: #40b0bf;
   width: 60px;
   min-width: 60px;
   height: 60px;
@@ -1288,7 +1319,7 @@ a {
   font-size: 32px;
   left: 50%;
   top: 120%;
-  color: #6592e6;
+  color: #40b0bf;
   transform: translate(-50%, 0);
 }
 .cid-svhUnLoahe span {
