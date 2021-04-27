@@ -48,17 +48,18 @@
     "favicon": "@PROJECT_PATH@/assets/images/logo-single-2.png",
     "mbrsiteDomain": "zyberlab",
     "imageResize": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://zyberlab.com",
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 34,
     "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
-    "google-analytics": "<!-- Remove Mobirise Footer -->\n<script>\n    window.addEventListener('load', function () {\n    const sections = document.querySelectorAll('section')\n    sections[sections.length-1].remove()\n})\n</script>\n\n<!-- Messenger Chat Plugin Code -->\n    <div id=\"fb-root\"></div>\n      <script>\n        window.fbAsyncInit = function() {\n          FB.init({\n            xfbml            : true,\n            version          : 'v10.0'\n          });\n        };\n\n        (function(d, s, id) {\n          var js, fjs = d.getElementsByTagName(s)[0];\n          if (d.getElementById(id)) return;\n          js = d.createElement(s); js.id = id;\n          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n          fjs.parentNode.insertBefore(js, fjs);\n        }(document, 'script', 'facebook-jssdk'));\n      </script>\n\n      <!-- Your Chat Plugin code -->\n      <div class=\"fb-customerchat\"\n        attribution=\"biz_inbox\"\n        page_id=\"1620014168239043\">\n      </div>"
+    "google-analytics": "<!-- Remove Mobirise Footer -->\n<script>\n    window.addEventListener('load', function () {\n    const sections = document.querySelectorAll('section')\n    sections[sections.length-1].remove()\n})\n</script>\n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-315R4X6QEH\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-315R4X6QEH');\n</script>\n\n<!-- Messenger Chat Plugin Code -->\n    <div id=\"fb-root\"></div>\n      <script>\n        window.fbAsyncInit = function() {\n          FB.init({\n            xfbml            : true,\n            version          : 'v10.0'\n          });\n        };\n\n        (function(d, s, id) {\n          var js, fjs = d.getElementsByTagName(s)[0];\n          if (d.getElementById(id)) return;\n          js = d.createElement(s); js.id = id;\n          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n          fjs.parentNode.insertBefore(js, fjs);\n        }(document, 'script', 'facebook-jssdk'));\n      </script>\n\n      <!-- Your Chat Plugin code -->\n      <div class=\"fb-customerchat\"\n        attribution=\"biz_inbox\"\n        page_id=\"1620014168239043\">\n      </div>",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
