@@ -73,16 +73,14 @@
     "publishChangesOnly": false,
     "google-analytics": "\n\n<style type=\"text/css\">\n.modal-body {\nbackground-color: white;\ncolor: darkcyan;\n}\n#menu1-h > nav {\nbox-shadow: 0px 1px 8px -2px rgba(0,0,0,0.35);}\n</style>\n\n<!-- Remove Mobirise Footer -->\n<script>\n    window.addEventListener('load', function () {\n    const sections = document.querySelectorAll('section')\n    sections[sections.length-1].remove()\n})\n</script>\n<!-- Messenger Chat Plugin Code -->\n    <div id=\"fb-root\"></div>\n      <script>\n        window.fbAsyncInit = function() {\n          FB.init({\n            xfbml            : true,\n            version          : 'v10.0'\n          });\n        };\n\n        (function(d, s, id) {\n          var js, fjs = d.getElementsByTagName(s)[0];\n          if (d.getElementById(id)) return;\n          js = d.createElement(s); js.id = id;\n          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n          fjs.parentNode.insertBefore(js, fjs);\n        }(document, 'script', 'facebook-jssdk'));\n      </script>\n\n      <!-- Your Chat Plugin code -->\n      <div class=\"fb-customerchat\"\n        attribution=\"biz_inbox\"\n        page_id=\"1620014168239043\">\n      </div>",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@",
     "usedWebp": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Zyberlab | IT Training & Services",
-        "meta_descr": "Affordable expertise for in-demand IT skills! Don't break the bank to get the skills you need. Our simplified and affordable IT training and Services for in-demand skills is here to help.",
+        "title": "Zyberlab: Digital Infrastructure & Tech Academy | Home of Likha ERP",
+        "meta_descr": "The engineering team behind Likha ERP. We build secure, industrial-grade software for Philippine businesses and train the next generation of tech talent.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
